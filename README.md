@@ -14,19 +14,18 @@ and you can try on
 
 
 ## Run Locally
-
-make directory  "tailwind"
+*open terminal and
+make directory  "tailwind"*
 
 ```bash
   cd tailwind
-
-   npm init 
+  npm init 
 ```
 
 Write and Enter repeatly
 
 ```bash
-  write "tailwind"
+  package name: (tailwind) tailwind
   description: "tailwind sample"
   author: "Vako"
 ```
@@ -49,8 +48,26 @@ license: (ISC)
 Next Run:
 
 ```bash
-  npm install -D tailwindcss
-
-  npx tailwindcss init
+  * npm install -D tailwindcss
+  * npx tailwindcss init
 
 ```
+
+#### *open tailwind.config.js* 
+
+and change`content: ["./src/*.{html,js}"],` 
+#### *make directori "src" and make input.css*  
+add this:
+```bash
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+```
+*Next write*
+
+```bash
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+```
+#### *Ready for work*
