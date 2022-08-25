@@ -1,73 +1,27 @@
-# New-Nav
-Tailwind sample project for responsive nav-bar with dark-mode
+<h1 align="center">
+💻 Magic Navigation Menu
+ </h1
+
+ #
+ <h3 align="center">
+Magic Navigation Menu Indicator. Curve Outside Effects
+ </h3>
 
 
-## Installation:
+![Badge](https://img.shields.io/static/v1?label=DEV&message=Tamila&color=8b008b&style=flat&logo=)
+#
+<p align="center"> ➡ Seemingly a simple application, but many features of pure CSS were used. It makes all the difference in an application. ⬅ </p>
 
-First you need install nodejs 
-[NodeJs](https://nodejs.org/en/)
+#
+![homepage](https://github.com/TamilaCambe/Magic-Navigation-Menu/blob/main/Gif%20com%20%C3%ADcone%20branco.gif)
 
-and you can try on
-[Tailwindcss site](https://tailwindcss.com/docs/installation)
+## 💻 Technologies used
 
-##### or Follow me...
+ * Visual Studio Code (Code editor);
+
+* HTML;
+
+* CSS;
 
 
-## Run Locally
-*open terminal and
-make directory  "tailwind"*
 
-```bash
-  cd tailwind
-  npm init 
-```
-
-Write and Enter repeatly
-
-```bash
-  package name: (tailwind) tailwind
-  description: "tailwind sample"
-  author: "Vako"
-```
-
-Fill like this...
-
-```bash
-package name: (tailwind) tailwind
-version: (1.0.0) 
-description: tailwind sample
-entry point: (index.js) 
-test command: 
-git repository: 
-keywords: 
-author: Vako
-license: (ISC) 
-
-```
-
-Next Run:
-
-```bash
-  * npm install -D tailwindcss
-  * npx tailwindcss init
-
-```
-
-#### *open tailwind.config.js* 
-
-and change`content: ["./src/*.{html,js}"],` 
-#### *make directori "src" and make input.css*  
-add this:
-```bash
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-```
-*Next write*
-
-```bash
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
-
-```
-#### *Ready for work*
